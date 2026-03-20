@@ -14,8 +14,9 @@ warp-cli status
 curl https://www.cloudflare.com/cdn-cgi/trace/
 # Должно быть: warp=on
 
-# 5. Переключение в режим прокси
+# 5. Переключение в режим прокси, порт
 warp-cli mode proxy
+
 warp-cli proxy port 40000
 
 # 6. Отключение
